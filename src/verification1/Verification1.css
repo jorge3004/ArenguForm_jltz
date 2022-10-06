@@ -1,0 +1,63 @@
+.main-Verification1 {
+  background-image: url("../img/UpmostlyLogo.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+
+.form {
+  margin-top: 150px;
+  text-align: center;
+}
+.logo {
+  margin-bottom: 40px;
+}
+.errorMessage {
+  color: brown;
+  text-align: center;
+  font-size: larger;
+}
+input::placeholder {
+  text-align: center !important ;
+}
+.pswBtn {
+  padding: 10px 40px;
+  border-radius: 15px;
+  opacity: 0.3;
+}
+.access {
+  margin-top: 30px;
+  padding: 10px 100px;
+  border-radius: 15px;
+}
+.pieDiv {
+  margin-top: 100px;
+  padding: 0 10px;
+}
+.pie {
+  text-align: center;
+  color: aliceblue;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin: 0;
+}
+.form {
+  margin-top: 35px;
+  text-align: center;
+}
+img {
+  width: 50vw;
+}
+@media only screen and (max-width: 425px) {
+  img {
+    width: 85vw;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  img {
+    width: 25vw;
+  }
+}

@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useState } from "react";
+import "./App.css";
+import { JltcGam } from "./jltcgam/JltcGam";
+import { Verification1 } from "./verification1/Verification1";
+import { Verification2 } from "./verification2/Verification2";
 function App() {
+  const [verification1, setVerification1] = useState(false);
+  const [verification2, setVerification2] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* {verification1 ? (
+        <JltcGlobal />
+      ) : (
+        <Verification1
+          verification1={setVerification2}
+          setVerification1={setVerification1}
+        />
+      )} */}
+
+      {verification2 ? (
+        <JltcGam />
+      ) : verification1 ? (
+        <Verification2 setVerification2={setVerification2} />
+      ) : (
+        <Verification1
+          verification1={setVerification2}
+          setVerification1={setVerification1}
+        />
+      )}
+    </>
   );
 }
 

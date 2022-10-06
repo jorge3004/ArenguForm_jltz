@@ -1,0 +1,32 @@
+.bg {
+  background-image: url("../img/UpmostlyLogo.jpg");
+  position: fixed;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.af-endingMessage.af-endingMessage-success,
+.af-message-text {
+  text-align: center !important ;
+}
+.main-container {
+  margin-top: 5%;
+  text-align: center;
+  padding: 0 30px;
+}
+/* .ArenguForm { */
+/* text-align: center;
+  padding-left: 20px;
+  padding-right: 20px; */
+/* padding-left: 30px;
+  padding-right: 30px; */
+/* } */
+input,
+.af-telFieldCountryButton-dialCode,
+.af-telField-countries {
+  color: rgba(14, 12, 12, 0.781) !important;
+}
