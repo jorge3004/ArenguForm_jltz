@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4b1fedbe.css",
+    "main.js": "/static/js/main.0771ce39.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/UpmostlyLogo.jpg": "/static/media/UpmostlyLogo.6e6acdc6e140f9b86772.jpg",
+    "static/media/LogosJuntos.png": "/static/media/LogosJuntos.cbae693add1700d272fc.png",
+    "index.html": "/index.html",
+    "main.4b1fedbe.css.map": "/static/css/main.4b1fedbe.css.map",
+    "main.0771ce39.js.map": "/static/js/main.0771ce39.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b1fedbe.css",
+    "static/js/main.0771ce39.js"
+  ]
+}
