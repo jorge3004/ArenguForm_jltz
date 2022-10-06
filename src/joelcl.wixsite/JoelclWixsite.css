@@ -1,0 +1,12 @@
+/* #marco {
+  background-color: black;
+} */
+#site-root,
+#master-page,
+#BACKGROUND_GROUP,
+#document,
+#main_MF,
+#SITE_CONTAINER {
+  background-color: black;
+  width: 500px !important ;
+}
